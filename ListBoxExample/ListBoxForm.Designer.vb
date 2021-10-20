@@ -31,11 +31,12 @@ Partial Class ListBoxForm
         '
         'ListBox1
         '
+        Me.ListBox1.Font = New System.Drawing.Font("Consolas", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 25
+        Me.ListBox1.ItemHeight = 24
         Me.ListBox1.Location = New System.Drawing.Point(12, 12)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(639, 379)
+        Me.ListBox1.Size = New System.Drawing.Size(639, 364)
         Me.ListBox1.TabIndex = 0
         '
         'ComboBox1
